@@ -1,0 +1,232 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Left Section */
+.left_section {
+    margin: 0;
+    width: 50%;
+    background-color: #3ADFE5;
+    padding: 32px 32px 32px 40px ;
+    box-sizing: border-box;
+    color: black;
+}
+
+.left_section img {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.image1 {
+    display: flex;
+    gap: 32px;
+}
+
+.left_section h1 {
+    font-size: 32px;
+    margin: 24px 0 0 20px;
+    font-family: Poppins;
+}
+
+.left_section h2 {
+    font-size: 20px;
+    margin: 0 0 48px 20px;
+    color: #2D3339;
+    font-family: Poppins;
+}
+
+.contact_info {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact_info p {
+    /* margin: 0 0 50px 0 ; */
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+}
+
+.contact_info img {
+    margin-right: 8px;
+}
+
+
+.about-me-box {
+    background-color: white;
+    border: 8px  solid black; 
+    border-radius: 10px; 
+    padding: 20px;
+    width: auto; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    border-bottom: 16px solid black;
+    border-right: 16px solid black;
+}
+
+.about-me-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.about-me-box p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Poppins;
+}
+
+.hobi {
+    margin-top: 24px;
+}
+
+.text_hobi {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Poppins;
+    margin: 0 0 16px 24px;
+}
+
+.isi_hobi {
+    display: flex;
+    justify-content: space-around;
+}
+
+.isi_hobi div {
+    text-align: center;
+    background-color: #CAFCF1;
+    border: 1px solid #DBDBDB;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.isi_hobi i {
+    padding: 8px;
+    border: solid black;
+    border-radius: 999px;
+}
+.isi_hobi p {
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+/*Right Section*/
+
+.right_section {
+    width: 50%;
+    box-sizing: border-box;
+    background-color: #CAFCF1;
+    margin: 0;
+}
+
+.right_section img {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.isi {
+    background-color: rgba(228, 255, 249, 1);
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    margin: 72px 72px 0 72px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.right_section h3 {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-family: Poppins;
+}
+.right_section p {
+    font-family: Poppins;
+}
+
+.skills {
+    position: relative;
+}
+
+.skills p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress_bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.progress {
+    height: 20px;
+    background-color: #3ADFE5;
+    border-radius: 25px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left_section h1, .left_section h2{
+        margin: 0;
+    }
+
+    .text_hobi {
+        margin: 0 0 16px 0;
+    }
+
+    .left_section, .right_section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right_section {
+        padding-left: 0;
+        position: static;
+        padding-bottom: 50px;
+    }
+
+    .right_section img {
+        display: none;
+    }
+
+    .image1 {
+        display: block;
+    }
+
+
+
+    .image1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-me-box, .skills, .experience, .education{
+        margin: 10px 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
