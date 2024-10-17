@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        nav {
+            width: 100%;
+            height: 48px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid black;
+            padding: 8px 32px 8px 32px;
+            border-radius: 8px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .form {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-section {
+            margin: 0;
+            display: flex;
+            margin-top: 32px;
+            max-width: 300px;
+        }
+
+        .right-section {
+            flex: 2;
+            padding-left: 20px;
+            margin-top: 32px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-group {
+            display: block;
+            width: 20%;
+        }
+
+        button {
+            width: 150px;
+            height: 32px;
+            background-color: green;
+            color: white;
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <nav>
+            <a href="">Home</a> |
+            <a href="">Register</a> |
+            <a href="">Policy</a> |
+            <a href="">About</a>
+        </nav>
+
+        <div class="form">
+
+            <div class="left-section">
+                <div class="form-group">
+                    <img src="http://placehold.co/300x300" alt="">
+                </div>
+            </div>
+
+            <div class="right-section">
+                <form action="">
+
+                    <div class="details">
+                        <p>Title Here : Macbook Air €800</p>
+                        <p>Description : <span>Year : 2009</span> <span>Model : </span> <span>Condition : Mint</span></p>
+                        <p>Total Amount : €800</p>
+                        <p>Pay to : 123-456-789-0</p>
+                    </div>
+
+
+                   <div>
+                    <label for="bank">Payment Type:</label>
+                    <select name="bank" id="bank">
+                        <option value="visadebit">Visa Debit</option>
+                    </select>
+                   </div>
+
+                   <div>
+                    <label for="account-holder">Account Holder:</label>
+                    <input type="text" id="account-holder" name="account-holder" placeholder="Name Here">
+                   </div>
+
+                    <div>
+                        <label for="noaccount">Account No:</label>
+                        <input type="number" id="noaccount" name="noaccount" value="1234567890">
+                    </div>
+
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" id="sendtomobilephone" name="sendtomobilephone" checked>
+                            <label for="sendtomobilephone">Send to Mobile Phone</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="sendtoemail" name="sendtoemail" checked>
+                            <label for="sendtoemail">Send to Email</label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="sendtomobilephone">Send to Mobile Phone:</label>
+                        <input type="number" id="sendtomobilephone" name="sendtomobilephone" value="1234567890">
+                    </div>
+
+                    <div>
+                        <label for="sendtoemail">Send to Email:</label>
+                    <input type="email" id="sendtoemail" name="sendtoemail" value="fys_06@gmail.com">
+                    </div>
+
+                    <button type="submit">Pay using QuidLink</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
