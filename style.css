@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #fbfbfb;
+    font-family: 'Poppins';
+}
+
+h1 {
+    text-align: center;
+    color: #014e60;
+}
+
+p {
+    text-align: center;
+    width: fit-content;
+}
+
+.img-1 , .img-2 {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 9px 14px 11px -7px rgba(0,0,0,0.84);
+    -webkit-box-shadow: 9px 14px 11px -7px rgba(0,0,0,0.84);
+    -moz-box-shadow: 9px 14px 11px -7px rgba(0,0,0,0.84);
+}
+
+.text-deskripsi {
+    background-color: #55ccc9;
+    color: white;
+    font-weight: 500;
+    padding: 16px 32px 16px 32px;
+    margin: 32px;
+    border-radius: 32px;
+    box-shadow: 6px 11px 11px -7px rgba(0,0,0,0.84);
+    -webkit-box-shadow: 6px 11px 11px -7px rgba(0,0,0,0.84);
+    -moz-box-shadow: 6px 11px 11px -7px rgba(0,0,0,0.84);
+}
+
+.foto {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px;
+    margin: 32px;
+}
+
+.foto img {
+    width: 20%;
+    height: auto;
+    margin: 0 8px 0 8px;
+    border-radius: 8px;
+    box-shadow: 9px 14px 11px -7px rgba(0,0,0,0.84);
+    -webkit-box-shadow: 9px 14px 11px -7px rgba(0,0,0,0.84);
+    -moz-box-shadow: 9px 14px 11px -7px rgba(0,0,0,0.84);
+}
+
+.khasiat {
+    background-color: #ffbfab;
+    font-weight: 500;
+    padding: 16px 32px 16px 32px;
+    margin: 32px;
+    border-radius: 32px;
+    box-shadow: 6px 11px 11px -7px rgba(0,0,0,0.84);
+    -webkit-box-shadow: 6px 11px 11px -7px rgba(0,0,0,0.84);
+    -moz-box-shadow: 6px 11px 11px -7px rgba(0,0,0,0.84);
+}
+.khasiat h3 {
+    color: #014e60;
+}
+
+.higlight {
+    font-weight: bold;
+    color: #014e60;
+}
+
+.promo h2 {
+    color: #014e60;
+    text-align: center;
+}
+
+.promo h3 {
+    color: #dd0025;
+    text-align: center;
+}
+
+.cod {
+    display: flex;
+    justify-content: center;
+}
+
+.cod p {
+    padding: 16px;
+    border: 2px dotted #014e60;
+    text-align: center;
+    font-weight: bold;
+    color: #dd0025;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+#tombol {
+    height: 48px;
+    background-color: #55ccc9;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.table-harga {
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.table-harga td {
+    background-color: rgba(255, 191, 171, 0.7);
+}
+
+.table-harga th {
+    background-color: #55ccc9;
+}
+
+
+/* BURUNG HTML */
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li {
+    margin: 0 32px 0 32px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid #55ccc9;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.nav li :hover {
+    background-color: #C0F0EF;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+}
+.gambar img {
+    width: 250px;
+    border-radius: 8px;
+    margin: 32px 16px 32px 16px;
+    height: auto;
+    box-shadow: 9px 14px 11px -7px rgba(0,0,0,0.84);
+    -webkit-box-shadow: 9px 14px 11px -7px rgba(0,0,0,0.84);
+    -moz-box-shadow: 9px 14px 11px -7px rgba(0,0,0,0.84);
+}
+
+.burung-first ::first-letter {
+    color: black;
+    font-size: 40px;
+}
+
+.koleksi {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.koleksi img {
+    max-width: 200px;
+}
